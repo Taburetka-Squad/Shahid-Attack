@@ -1,5 +1,5 @@
-﻿using Core.DamageDealers;
-using Core.ProjectTiles.Weapon;
+﻿using Core.DamageDealer.Projectiles;
+using Core.Projectiles;
 using Core.Weapons.IFireHandler;
 using UnityEngine;
 
@@ -7,10 +7,9 @@ namespace Core.Weapons
 {
     public class Weapon
     {
-        private WeaponProjectTilesBase _projectTilesBase; 
+        private Projectile _projectile;
         private Transform _firePoint;
         
-        private IDamageDealer _damageDealer;
         private IShoot _shoot;
         
         public void Shoot()

@@ -58,11 +58,14 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
-            <e p="DamageDealers" t="Include">
-              <e p="Bullets" t="Include">
-                <e p="Bullet.cs" t="Include" />
-              </e>
+            <e p="DamageDealer" t="Include">
               <e p="IDamageDealer.cs" t="Include" />
+              <e p="Projectiles" t="Include">
+                <e p="Bullets" t="Include">
+                  <e p="Bullet.cs" t="Include" />
+                </e>
+                <e p="Projectile.cs" t="Include" />
+              </e>
             </e>
             <e p="Humans" t="Include">
               <e p="ArmedHumans" t="Include">
@@ -83,14 +86,6 @@
               <e p="IInput.cs" t="Include" />
               <e p="IShootInput.cs" t="Include" />
               <e p="KeyBoardInput.cs" t="Include" />
-            </e>
-            <e p="ProjectTiles" t="Include">
-              <e p="Weapon" t="Include">
-                <e p="Configs" t="Include">
-                  <e p="WeaponProjectTilesConfig.cs" t="Include" />
-                </e>
-                <e p="WeaponProjectTilesBase.cs" t="Include" />
-              </e>
             </e>
             <e p="Weapons" t="Include">
               <e p="Config" t="Include">

@@ -6,16 +6,15 @@ namespace Core.InputProviders
     public class KeyBoardInput : IShootInput
     {
         public event Action NeedAnAttack;
-        
+
         public Vector2 Direction { get; private set; }
 
-        public void ReadInput()
+        public void Read()
         {
-            var horizontalDirection = Input.GetAxis("Horizontal");
-            var verticalDirection = Input.GetAxis("Vertical");
+            var horizontalDirection = Input.GetAxisRaw("Horizontal");
+            var verticalDirection = Input.GetAxisRaw("Vertical");
 
-            var direction = new Vector2(horizontalDirection, verticalDirection);
-            Direction = direction.normalized;
+            Direction = new Vector2(horizontalDirection, verticalDirection);
 
             if (Input.GetKey(KeyCode.Mouse0))
             {

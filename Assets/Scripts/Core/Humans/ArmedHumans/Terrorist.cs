@@ -11,7 +11,7 @@ namespace Core.Humans.ArmedHumans
 
         private void Update()
         {
-            Input.ReadInput();
+            Input.Read();
         }
 
         private void FixedUpdate()
