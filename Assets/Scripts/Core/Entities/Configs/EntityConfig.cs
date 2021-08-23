@@ -1,4 +1,4 @@
-﻿using Core.InputProviders;
+﻿using Core.Input;
 using UnityEngine;
 
 namespace Core.Entities.Configs
@@ -6,6 +6,6 @@ namespace Core.Entities.Configs
     [CreateAssetMenu(menuName = "EntityConfig", order = 0)]
     public class EntityConfig : ScriptableObject
     {
-        public IInputProvider InputProvider;
+        public IInput InputProvider;
     }
 }

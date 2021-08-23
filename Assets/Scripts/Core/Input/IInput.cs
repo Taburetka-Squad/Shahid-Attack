@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Core.InputProviders
+namespace Core.Input
 {
-    public interface IInputProvider
+    public interface IInput
     {
         event Action NeedAnAttack;
         
