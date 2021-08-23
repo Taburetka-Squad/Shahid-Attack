@@ -2,7 +2,7 @@ using Core.Weapons;
 
 namespace Core.Entities
 {
-    public class Player : Entity
+    public class Player : Human
     {
         private Weapon _weapon;
         
@@ -18,10 +18,10 @@ namespace Core.Entities
 
         protected override void Move()
         {
-            transform.Translate(InputProvider.NormalizedDirection);
+            transform.Translate(InputProvider.Direction);
         }
 
-        protected override void Shoot()
+        private void Shoot()
         {
             _weapon.Shoot();
         }

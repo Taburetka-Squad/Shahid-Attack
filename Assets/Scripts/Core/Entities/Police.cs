@@ -2,10 +2,10 @@
 
 namespace Core.Entities
 {
-    public class Police : Entity
+    public class Police : Human
     {
         private Weapon _weapon;
-        
+
         private void Update()
         {
             InputProvider.ReadInput();
@@ -13,10 +13,10 @@ namespace Core.Entities
 
         protected override void Move()
         {
-            transform.Translate(InputProvider.NormalizedDirection);
+            transform.Translate(InputProvider.Direction);
         }
 
-        protected override void Shoot()
+        private void Shoot()
         {
             _weapon.Shoot();
         }

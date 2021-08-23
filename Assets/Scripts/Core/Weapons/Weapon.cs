@@ -1,18 +1,21 @@
 ﻿using Core.ProjectTiles.Weapon;
+using Core.Weapons.IFireHandler;
 using DefaultNamespace;
 using UnityEngine;
 
 namespace Core.Weapons
 {
-    public abstract class Weapon
+    public class Weapon
     {
-        protected WeaponProjectTilesBase ProjectTilesBase; 
-        protected IDamageDealer DamageDealer;
-        protected Transform FirePoint;
-
+        private WeaponProjectTilesBase _projectTilesBase; 
+        private Transform _firePoint;
+        
+        private IDamageDealer _damageDealer;
+        private IShoot _shoot;
+        
         public void Shoot()
         {
-            
+            _shoot.Shoot(_firePoint);
         }
     }
 }

@@ -1,14 +1,15 @@
 ﻿using System;
 using DefaultNamespace;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Core.Bullets
+namespace Core.DamageDealers.Bullets
 {
     public abstract class Bullet : MonoBehaviour, IDamageDealer
     {
         public event Action<Bullet> BulletBodyAttached;
-
-        public int Damage { get; private set; }
+        
+        [ShowInInspector] public int Damage { get; private set; }
 
         private void OnCollisionEnter(Collision other)
         {

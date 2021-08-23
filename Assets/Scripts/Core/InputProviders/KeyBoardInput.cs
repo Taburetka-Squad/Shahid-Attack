@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Core.InputProviders
 {
     public class KeyBoardInput : IInputProvider
     {
-        public Vector2 NormalizedDirection { get; private set; }
+        public event Action NeedAnAttack;
+        
+        public Vector2 Direction { get; private set; }
 
         public void ReadInput()
         {
@@ -12,7 +15,12 @@ namespace Core.InputProviders
             var verticalDirection = Input.GetAxis("Vertical");
 
             var direction = new Vector2(horizontalDirection, verticalDirection);
-            NormalizedDirection = direction.normalized;
+            Direction = direction.normalized;
+
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                NeedAnAttack?.Invoke();
+            }
         }
     }
 }

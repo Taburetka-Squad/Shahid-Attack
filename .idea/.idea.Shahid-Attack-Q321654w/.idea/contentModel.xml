@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\q3216\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\q3216\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Shahid-Attack-Q321654w.-866424722.00" t="ExcludeRecursive" />
+    <e p="C:\Users\q3216\Desktop\Projects\gameee\Shahid-Attack-Q321654w" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Hierarchy 2" t="Include">
+            <e p="Editor" t="Include">
+              <e p="GroupSelection.cs" t="Include" />
+              <e p="Hierarchy2Editor.asmdef" t="Include" />
+              <e p="HierarchyCanvas.cs" t="Include" />
+              <e p="HierarchyEditor.cs" t="Include" />
+              <e p="HierarchyFolderEditor.cs" t="Include" />
+              <e p="HierarchyLocalDataEditor.cs" t="Include" />
+              <e p="HierarchyResources.cs" t="Include" />
+              <e p="HierarchySettings.cs" t="Include" />
+              <e p="IHierarchyElement.cs" t="Include" />
+              <e p="IHierarchyShelf.cs" t="Include" />
+              <e p="InstantInspector.cs" t="Include" />
+              <e p="ObjectCustomization.cs" t="Include" />
+              <e p="OpenSettings.cs" t="Include" />
+              <e p="SceneRenamePopup.cs" t="Include" />
+              <e p="SelectionsRenamePopup.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="CustomRowItem.cs" t="Include" />
+              <e p="Hierarchy2Runtime.asmdef" t="Include" />
+              <e p="HierarchyFolder.cs" t="Include" />
+              <e p="HierarchyLocalData.cs" t="Include" />
+              <e p="Texture2DExtensions.cs" t="Include" />
+              <e p="UIElements.cs" t="Include" />
+              <e p="VisualElementExstensions.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Sirenix" t="Include">
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntFormatters.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="DamageDealers" t="Include">
+              <e p="Bullets" t="Include">
+                <e p="Bullet.cs" t="Include" />
+              </e>
+              <e p="IDamageDealer.cs" t="Include" />
+            </e>
+            <e p="Entities" t="Include">
+              <e p="Configs" t="Include">
+                <e p="EntityConfig.cs" t="Include" />
+              </e>
+              <e p="Human.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="Police.cs" t="Include" />
+              <e p="Сitizen.cs" t="Include" />
+            </e>
+            <e p="InputProviders" t="Include">
+              <e p="IInputProvider.cs" t="Include" />
+              <e p="KeyBoardInput.cs" t="Include" />
+            </e>
+            <e p="ProjectTiles" t="Include">
+              <e p="Weapon" t="Include">
+                <e p="Configs" t="Include">
+                  <e p="WeaponProjectTilesConfig.cs" t="Include" />
+                </e>
+                <e p="WeaponProjectTilesBase.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Weapons" t="Include">
+              <e p="Config" t="Include">
+                <e p="WeaponConfig.cs" t="Include" />
+              </e>
+              <e p="IFireHandler" t="Include">
+                <e p="IShoot.cs" t="Include" />
+              </e>
+              <e p="Weapon.cs" t="Include" />
+            </e>
+          </e>
+          <e p="IR" t="Include">
+            <e p="Core" t="Include">
+              <e p="Encryption" t="Include">
+                <e p="RijndaelEncryption.cs" t="Include" />
+              </e>
+              <e p="Game.cs" t="Include" />
+              <e p="IInitializable.cs" t="Include" />
+              <e p="IInteractor.cs" t="Include" />
+              <e p="IRepository.cs" t="Include" />
+              <e p="Save" t="Include">
+                <e p="Decorators" t="Include">
+                  <e p="Base64SaveKeeperDecorator.cs" t="Include" />
+                  <e p="RijndaelEncryptionSaveKeeperDecorator.cs" t="Include" />
+                  <e p="SaveKeeperDecorator.cs" t="Include" />
+                </e>
+                <e p="DefaultSaveKeeper.cs" t="Include" />
+                <e p="ISaveable.cs" t="Include" />
+                <e p="ISaveKeeper.cs" t="Include" />
+                <e p="PlayerPrefsSaveKeeper.cs" t="Include" />
+              </e>
+              <e p="ScriptableValueInteractor.cs" t="Include" />
+              <e p="Tables" t="Include">
+                <e p="InitializableTable.cs" t="Include" />
+                <e p="InteractorsTable.cs" t="Include" />
+                <e p="RepositoriesTable.cs" t="Include" />
+                <e p="SaveableTable.cs" t="Include" />
+                <e p="TypeTable.cs" t="Include" />
+              </e>
+              <e p="UnityApplication.cs" t="Include" />
+              <e p="ValueInteractor.cs" t="Include" />
+              <e p="ValueRepository.cs" t="Include" />
+            </e>
+            <e p="Interactors" t="Include">
+              <e p="MoneyInteractor.cs" t="Include" />
+              <e p="ScriptableMoneyInteractor.cs" t="Include" />
+            </e>
+            <e p="Repositories" t="Include">
+              <e p="MoneyRepository.cs" t="Include" />
+            </e>
+            <e p="SerializeProperty.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Hierarchy2Editor.csproj" t="IncludeRecursive" />
+      <e p="NewAssembly.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Shahid-Attack-Q321654w.sln" t="IncludeFlat" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
