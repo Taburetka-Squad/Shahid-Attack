@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Core.InputProviders
 {
-    public class KeyBoardInput : IInputProvider
+    public class KeyBoardInput : IShootInput
     {
         public event Action NeedAnAttack;
         

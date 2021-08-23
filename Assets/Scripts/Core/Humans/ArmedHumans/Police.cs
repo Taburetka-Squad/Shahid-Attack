@@ -1,24 +1,22 @@
+﻿using Core.InputProviders;
 using Core.Weapons;
 
-namespace Core.Entities
+namespace Core.Humans.ArmedHumans
 {
-    public class Player : Human
+    public class Police : ArmedHuman
     {
         private Weapon _weapon;
         
+        protected override IShootInput ShootInput { get; }
+        
         private void Update()
         {
-            InputProvider.ReadInput();
-        }
-
-        private void FixedUpdate()
-        {
-            Move();
+            Input.ReadInput();
         }
 
         protected override void Move()
         {
-            transform.Translate(InputProvider.Direction);
+            transform.Translate(Input.Direction);
         }
 
         private void Shoot()

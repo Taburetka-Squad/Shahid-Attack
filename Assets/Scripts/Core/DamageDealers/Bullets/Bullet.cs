@@ -1,5 +1,4 @@
 ﻿using System;
-using DefaultNamespace;
 using Sirenix.OdinInspector;
 using UnityEngine;
 

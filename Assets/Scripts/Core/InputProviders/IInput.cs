@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Core.InputProviders
 {
-    public interface IInputProvider
+    public interface IInput
     {
         event Action NeedAnAttack;
         

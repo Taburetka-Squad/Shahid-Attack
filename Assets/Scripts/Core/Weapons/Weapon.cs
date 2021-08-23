@@ -1,6 +1,6 @@
-﻿using Core.ProjectTiles.Weapon;
+﻿using Core.DamageDealers;
+using Core.ProjectTiles.Weapon;
 using Core.Weapons.IFireHandler;
-using DefaultNamespace;
 using UnityEngine;
 
 namespace Core.Weapons

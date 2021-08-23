@@ -1,4 +1,4 @@
-﻿namespace DefaultNamespace
+﻿namespace Core.DamageDealers
 {
     public interface IDamageDealer
     {
