@@ -2,8 +2,10 @@
 
 namespace Core.InputProviders
 {
-    public interface IShootInput : IInput
+    public interface IShootInput
     {
         event Action NeedAnAttack;
+        
+        void Read();
     }
 }

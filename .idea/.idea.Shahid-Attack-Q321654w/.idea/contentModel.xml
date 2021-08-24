@@ -83,16 +83,18 @@
               <e p="Сitizen.cs" t="Include" />
             </e>
             <e p="InputProviders" t="Include">
-              <e p="IInput.cs" t="Include" />
+              <e p="IDirectionInput.cs" t="Include" />
               <e p="IShootInput.cs" t="Include" />
               <e p="KeyBoardInput.cs" t="Include" />
             </e>
             <e p="Weapons" t="Include">
               <e p="Config" t="Include">
+                <e p="PistolConfig.cs" t="Include" />
                 <e p="WeaponConfig.cs" t="Include" />
               </e>
-              <e p="IFireHandler" t="Include">
+              <e p="IShoots" t="Include">
                 <e p="IShoot.cs" t="Include" />
+                <e p="PistolShoot.cs" t="Include" />
               </e>
               <e p="Weapon.cs" t="Include" />
             </e>

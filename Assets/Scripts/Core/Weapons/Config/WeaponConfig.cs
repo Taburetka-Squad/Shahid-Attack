@@ -1,4 +1,5 @@
-﻿using Core.Weapons.IFireHandler;
+﻿using Core.DamageDealer.Projectiles;
+using Core.Weapons.IShoots;
 using UnityEngine;
 
 namespace Core.Weapons.Config
@@ -6,5 +7,13 @@ namespace Core.Weapons.Config
     public abstract class WeaponConfig : ScriptableObject
     {
         public abstract IShoot Shoot { get; }
+
+        public Projectile Projectile;
+        
+        public int MaxAmmo;
+        public int MaxAmmoInMagazin;
+        
+        public int ReloadingTime;
+        public int TimeBetweenShoots;
     }
 }

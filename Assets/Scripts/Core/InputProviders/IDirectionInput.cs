@@ -2,7 +2,7 @@
 
 namespace Core.InputProviders
 {
-    public interface IInput
+    public interface IDirectionInput
     {
         Vector2 Direction { get; }
 

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Core.InputProviders
 {
-    public class KeyBoardInput : IShootInput
+    public class KeyBoardInput : IShootInput, IDirectionInput
     {
         public event Action NeedAnAttack;
 
@@ -16,7 +16,7 @@ namespace Core.InputProviders
 
             Direction = new Vector2(horizontalDirection, verticalDirection);
 
-            if (Input.GetKey(KeyCode.Mouse0))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 NeedAnAttack?.Invoke();
             }
