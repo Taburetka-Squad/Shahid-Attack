@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150da394-90fa-4d2d-bd2f-09dedf08494b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IFireHandler.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IFireHandler/IShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IFireHandler/IShoot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/IDamageDealer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,7 +63,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Projectiles/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/IDamageDealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoot/IShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoot/PistolShoot.cs" />
@@ -99,9 +77,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" />
       </list>
     </option>
   </component>
@@ -126,10 +106,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="36580">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="36580" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -146,6 +126,7 @@
       <workItem from="1629728007420" duration="5392000" />
       <workItem from="1629733522275" duration="1961000" />
       <workItem from="1629804537920" duration="4478000" />
+      <workItem from="1629809206281" duration="1102000" />
     </task>
     <servers />
   </component>

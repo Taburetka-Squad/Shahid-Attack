@@ -13,6 +13,7 @@ namespace Core.Humans.ArmedHumans
 
         public void Initialize(ArmedHumanConfig config)
         {
+            KillPoints = config.KillPoints;
             ShootInput = config.ShootInput;
             ShootInput.NeedAnAttack += OnNeedAnAttack;
             Weapon = new Weapon(config.WeaponConfig, FirePoint, gameObject.transform);
