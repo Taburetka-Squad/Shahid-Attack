@@ -58,6 +58,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
+            <e p="Buildings" t="Include" />
             <e p="DamageDealer" t="Include">
               <e p="IDamageDealer.cs" t="Include" />
               <e p="Projectiles" t="Include">
