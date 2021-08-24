@@ -16,8 +16,8 @@
         public virtual string Load(string key)
         {
             return _saveKeeper.Load(key);
-            
         }
+        
         public virtual void Save(string key, string content)
         {
             _saveKeeper.Save(key, content);

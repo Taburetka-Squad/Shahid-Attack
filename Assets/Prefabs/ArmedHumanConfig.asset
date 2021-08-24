@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d7946c1bee4b2a9336bb36776c204f, type: 3}
   m_Name: ArmedHumanConfig
   m_EditorClassIdentifier: 
+  KillPoints: 0
+  WeaponConfig: {fileID: 11400000, guid: 731981b29766e244aa4f54eed490461c, type: 2}
