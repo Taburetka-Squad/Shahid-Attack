@@ -1,8 +1,6 @@
 ﻿using Core.ProjectTiles.Weapon;
 using Core.Weapons.IFireHandler;
-
-using DefaultNamespace; // ?
-
+using DefaultNamespace;
 using UnityEngine;
 
 namespace Core.Weapons
