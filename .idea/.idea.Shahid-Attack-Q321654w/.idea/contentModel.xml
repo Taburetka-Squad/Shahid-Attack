@@ -67,11 +67,15 @@
                 <e p="Door.cs" t="Include" />
               </e>
               <e p="Floors" t="Include">
+                <e p="Cells" t="Include">
+                  <e p="Cell.cs" t="Include" />
+                </e>
                 <e p="Floor.cs" t="Include" />
                 <e p="Ladders" t="Include">
                   <e p="Ladder.cs" t="Include" />
                 </e>
               </e>
+              <e p="Wall.cs" t="Include" />
             </e>
             <e p="DamageDealer" t="Include">
               <e p="IDamageDealer.cs" t="Include" />
