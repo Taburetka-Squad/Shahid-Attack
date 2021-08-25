@@ -2,10 +2,16 @@
 
 namespace Core.Humans.Factories.Configs
 {
-    [CreateAssetMenu(menuName = "HumanConfigs/HumanConfig", order = 0)]
-    public class HumanConfig : ScriptableObject
+    [CreateAssetMenu(menuName = "HumanBaseConfigs/HumanConfig", order = 0)]
+    public class HumanConfig : HumanConfigBase
     {
         public Human Prefab;
-        public int KillPoints;
+        
+        public override Human Spawn()
+        {
+            var human = Instantiate(Prefab);
+            human.Initialize(this);
+            return human;
+        }
     }
 }

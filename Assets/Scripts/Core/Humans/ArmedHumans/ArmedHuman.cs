@@ -1,4 +1,4 @@
-﻿using Core.Humans.ArmedHumans.Factories.Configs;
+﻿using Core.Humans.ArmedHumans.Configs;
 using Core.InputProviders.IShootInput;
 using Core.Weapons;
 using UnityEngine;
@@ -13,19 +13,20 @@ namespace Core.Humans.ArmedHumans
         
         private Weapon _weapon;
 
-        public void Initialize(ArmedHumanConfig config)
+        public void Initialize(ArmedHumanConfig configBase)
         {
-            base.Initialize(config);
+            base.Initialize(configBase);
+
+            ReadInput += ReadShootInput;
             
-            ShootInput = config.ShootInput;
+            ShootInput = configBase.ShootInput;
             ShootInput.NeedAnAttack += OnNeedAnAttack;
 
-            _weapon = new Weapon(config.WeaponConfig, FirePoint, gameObject.transform);
+            _weapon = new Weapon(configBase.WeaponConfig, FirePoint, gameObject.transform);
         }
 
-        protected void ReadInput()
+        private void ReadShootInput()
         {
-            base.ReadInput();
             ShootInput.Read();
         }
 

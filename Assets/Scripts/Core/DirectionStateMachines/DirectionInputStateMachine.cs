@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Core.InputProviders;
 using Core.InputProviders.IDirectionInputs;
 
 namespace Core.DirectionStateMachines

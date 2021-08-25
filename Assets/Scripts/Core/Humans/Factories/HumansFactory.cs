@@ -1,42 +1,35 @@
-﻿using Core.Humans.ArmedHumans.Factories;
+﻿using System;
+using System.Linq;
 using Core.Humans.Factories.Configs;
 using UnityEngine;
 
 namespace Core.Humans.Factories
 {
+    [CreateAssetMenu(menuName = "HumanFactory", order = 0)]
     public class HumansFactory : ScriptableObject
     {
-        [SerializeField] private HumanConfig _citizen;
-        [SerializeField] private ArmedHumansFactory _armedHumansFactory;
+        [SerializeField] private HumanConfigBase[] _configs;
 
         public Human GetHuman(HumanType type)
         {
-            var config = GetConfig(type);
-            var instance = CreateGameObjectInstance(config.Prefab);
-            instance.Initialize(config);
-            return instance;
+            var config = _configs.First(s => s.HumanType == type);
+            return config.Spawn();
         }
-
-        public Human GetHuman(ArmedHumanType type)
+#if UNITY_EDITOR
+        
+        private void OnValidate()
         {
-            return _armedHumansFactory.GetArmedHuman(type);
-        }
-
-        private Human CreateGameObjectInstance(Human prefab)
-        {
-            return Instantiate(prefab);
-        }
-
-        private HumanConfig GetConfig(HumanType type)
-        {
-            switch (type)
+            foreach (var config in _configs)
             {
-                case HumanType.Citizen: 
-                    return _citizen;
+                foreach (var selectedConfig in _configs)
+                {
+                    if (config == selectedConfig) continue;
+                    
+                    if (config.HumanType == selectedConfig.HumanType) 
+                        throw new Exception("Конфиг такого типа уже есть " + config.HumanType);
+                }
             }
-
-            Debug.Log("Haven't config for this type");
-            return _citizen;
         }
+#endif
     }
 }

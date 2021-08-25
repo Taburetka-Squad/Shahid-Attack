@@ -1,7 +1,9 @@
 ﻿namespace Core.Humans.Factories
 {
-    public enum HumanType
+    public enum HumanType : byte
     {
         Citizen,
+        Police, 
+        Terrorist,
     }
 }

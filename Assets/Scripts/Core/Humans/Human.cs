@@ -1,4 +1,5 @@
-﻿using Core.DirectionStateMachines;
+﻿using System;
+using Core.DirectionStateMachines;
 using Core.Humans.Factories.Configs;
 using UnityEngine;
 
@@ -9,24 +10,27 @@ namespace Core.Humans
     {
         public int KillPoints { get; private set; }
 
+        protected Action ReadInput;
+
         private DirectionInputStateMachine _directionInputStateMachine;
 
-        public void Initialize(HumanConfig config)
+        public void Initialize(HumanConfigBase configBase)
         {
-            KillPoints = config.KillPoints;
+            ReadInput += ReadDirectionInput;
+            KillPoints = configBase.KillPoints;
             _directionInputStateMachine = GetStateMachine();
         }
 
         protected abstract DirectionInputStateMachine GetStateMachine();
-
-        protected void ReadInput()
-        {
-            _directionInputStateMachine.CurrentDirectionInput.Read();
-        }
-
+        
         protected void Move()
         {
             transform.Translate(_directionInputStateMachine.CurrentDirectionInput.Direction);
+        }
+        
+        private void ReadDirectionInput()
+        {
+            _directionInputStateMachine.CurrentDirectionInput.Read();
         }
     }
 }

@@ -1,19 +1,10 @@
-﻿using Core.DirectionStateMachines;
+using Core.DirectionStateMachines;
 using Core.DirectionStateMachines.Realization.Peace;
-using Core.Humans.Factories.Configs;
-using UnityEngine;
 
-namespace Core.Humans
+namespace Core.Humans.ArmedHumans.Realization
 {
-    public class Сitizen : Human
+    public class Terrorist : ArmedHuman
     {
-        [SerializeField] private HumanConfig _config;
-       
-        private void Awake()
-        {
-            Initialize(_config);
-        }
-
         private void Update()
         {
             ReadInput();
@@ -23,7 +14,7 @@ namespace Core.Humans
         {
             Move();
         }
-        
+
         protected override DirectionInputStateMachine GetStateMachine()
         {
             return new CitizenDirectionInput();
