@@ -1,5 +1,5 @@
 ﻿using Core.DirectionStateMachines;
-using Core.Humans.Configs;
+using Core.Humans.Factories.Configs;
 using UnityEngine;
 
 namespace Core.Humans

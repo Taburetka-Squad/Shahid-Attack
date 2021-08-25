@@ -1,5 +1,4 @@
-﻿using Core.Humans.ArmedHumans.Configs;
-using Core.InputProviders;
+﻿using Core.Humans.ArmedHumans.Factories.Configs;
 using Core.InputProviders.IShootInput;
 using Core.Weapons;
 using UnityEngine;
@@ -17,7 +16,7 @@ namespace Core.Humans.ArmedHumans
         public void Initialize(ArmedHumanConfig config)
         {
             base.Initialize(config);
-
+            
             ShootInput = config.ShootInput;
             ShootInput.NeedAnAttack += OnNeedAnAttack;
 
