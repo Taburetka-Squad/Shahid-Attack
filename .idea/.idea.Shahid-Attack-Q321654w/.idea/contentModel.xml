@@ -67,11 +67,15 @@
                 <e p="Door.cs" t="Include" />
               </e>
               <e p="Floors" t="Include">
+                <e p="Cells" t="Include">
+                  <e p="Cell.cs" t="Include" />
+                </e>
                 <e p="Floor.cs" t="Include" />
                 <e p="Ladders" t="Include">
                   <e p="Ladder.cs" t="Include" />
                 </e>
               </e>
+              <e p="Wall.cs" t="Include" />
             </e>
             <e p="DamageDealer" t="Include">
               <e p="IDamageDealer.cs" t="Include" />
@@ -148,16 +152,18 @@
               <e p="ValueRepository.cs" t="Include" />
             </e>
             <e p="Interactors" t="Include">
-              <e p="MoneyInteractor.cs" t="Include" />
-              <e p="ScriptableMoneyInteractor.cs" t="Include" />
+              <e p="ScoreInteractor.cs" t="Include" />
+              <e p="ScriptableScoreInteractor.cs" t="Include" />
             </e>
             <e p="Repositories" t="Include">
-              <e p="MoneyRepository.cs" t="Include" />
+              <e p="ScoreRepository.cs" t="Include" />
             </e>
             <e p="SerializeProperty.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="CustomButton.cs" t="Include" />
             <e p="ProgressBar.cs" t="Include" />
+            <e p="ScoreView.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

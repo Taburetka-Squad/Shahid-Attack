@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Core.Buildings.Doors
 {
-    public class Door : MonoBehaviour
+    public class Door : Wall
     {
         private static Quaternion _rotationAngle = Quaternion.Euler(0, 0, 90);
 
