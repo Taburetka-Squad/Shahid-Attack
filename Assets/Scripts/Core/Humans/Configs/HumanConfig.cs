@@ -6,6 +6,7 @@ namespace Core.Humans.Configs
     [CreateAssetMenu(menuName = "EntityConfig", order = 0)]
     public class HumanConfig : ScriptableObject
     {
-        public virtual IInput Input { get; }
+        public int KillPoints;
+        public IDirectionInput DirectionInput;
     }
 }

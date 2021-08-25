@@ -1,14 +1,12 @@
 ﻿using System;
-using Sirenix.OdinInspector;
+using Core.DamageDealer.Projectiles;
 using UnityEngine;
 
-namespace Core.DamageDealers.Bullets
+namespace Core.Projectiles.Bullets
 {
-    public abstract class Bullet : MonoBehaviour, IDamageDealer
+    public class Bullet : Projectile
     {
         public event Action<Bullet> BulletBodyAttached;
-        
-        [ShowInInspector] public int Damage { get; private set; }
 
         private void OnCollisionEnter(Collision other)
         {

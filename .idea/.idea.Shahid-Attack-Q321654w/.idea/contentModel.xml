@@ -58,11 +58,29 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
-            <e p="DamageDealers" t="Include">
-              <e p="Bullets" t="Include">
-                <e p="Bullet.cs" t="Include" />
+            <e p="Buildings" t="Include">
+              <e p="Building.cs" t="Include" />
+              <e p="Configs" t="Include">
+                <e p="BuildingConfig.cs" t="Include" />
               </e>
+              <e p="Doors" t="Include">
+                <e p="Door.cs" t="Include" />
+              </e>
+              <e p="Floors" t="Include">
+                <e p="Floor.cs" t="Include" />
+                <e p="Ladders" t="Include">
+                  <e p="Ladder.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="DamageDealer" t="Include">
               <e p="IDamageDealer.cs" t="Include" />
+              <e p="Projectiles" t="Include">
+                <e p="Bullets" t="Include">
+                  <e p="Bullet.cs" t="Include" />
+                </e>
+                <e p="Projectile.cs" t="Include" />
+              </e>
             </e>
             <e p="Humans" t="Include">
               <e p="ArmedHumans" t="Include">
@@ -80,24 +98,19 @@
               <e p="Сitizen.cs" t="Include" />
             </e>
             <e p="InputProviders" t="Include">
-              <e p="IInput.cs" t="Include" />
+              <e p="CitizenInput.cs" t="Include" />
+              <e p="IDirectionInput.cs" t="Include" />
               <e p="IShootInput.cs" t="Include" />
               <e p="KeyBoardInput.cs" t="Include" />
             </e>
-            <e p="ProjectTiles" t="Include">
-              <e p="Weapon" t="Include">
-                <e p="Configs" t="Include">
-                  <e p="WeaponProjectTilesConfig.cs" t="Include" />
-                </e>
-                <e p="WeaponProjectTilesBase.cs" t="Include" />
-              </e>
-            </e>
             <e p="Weapons" t="Include">
               <e p="Config" t="Include">
+                <e p="PistolConfig.cs" t="Include" />
                 <e p="WeaponConfig.cs" t="Include" />
               </e>
-              <e p="IFireHandler" t="Include">
+              <e p="IShoots" t="Include">
                 <e p="IShoot.cs" t="Include" />
+                <e p="PistolShoot.cs" t="Include" />
               </e>
               <e p="Weapon.cs" t="Include" />
             </e>
@@ -142,6 +155,40 @@
               <e p="MoneyRepository.cs" t="Include" />
             </e>
             <e p="SerializeProperty.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="ProgressBar.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>
