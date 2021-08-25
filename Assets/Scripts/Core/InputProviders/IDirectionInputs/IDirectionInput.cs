@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Core.InputProviders
+namespace Core.InputProviders.IDirectionInputs
 {
     public interface IDirectionInput
     {

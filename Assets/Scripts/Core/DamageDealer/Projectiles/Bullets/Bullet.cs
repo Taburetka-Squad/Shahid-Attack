@@ -1,8 +1,7 @@
 ﻿using System;
-using Core.DamageDealer.Projectiles;
 using UnityEngine;
 
-namespace Core.Projectiles.Bullets
+namespace Core.DamageDealer.Projectiles.Bullets
 {
     public class Bullet : Projectile
     {

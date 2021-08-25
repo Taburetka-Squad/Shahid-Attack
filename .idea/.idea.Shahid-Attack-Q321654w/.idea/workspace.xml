@@ -2,22 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150da394-90fa-4d2d-bd2f-09dedf08494b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/DirectionInputStateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/DirectionInputStateMachine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IDirectionInputStateSwitcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IDirectionInputStateSwitcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/Realization.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/Realization/Peace.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/Realization/Peace/CitizenDirectionInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/Realization/Peace/CitizenDirectionInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/DirectionInputStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/DirectionInputStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/DirectionInputStateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/DirectionInputStateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IDirectionInputStateSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/IDirectionInputStateSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IDirectionInputStateSwitcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/IDirectionInputStateSwitcher.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/CitizenPeaceInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/CitizenPeaceInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/IDirectionInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/IDirectionInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/IShootInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/IShootInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +58,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Wall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Interactors/ScoreInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Building.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IDirectionInputStateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/IDirectionInputStateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/Realization/Peace/CitizenDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/IDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs/BuildingConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/DirectionInputStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/DirectionInputStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/IShootInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/CitizenPeaceInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/Save/Decorators/SaveKeeperDecorator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/Save/Decorators/RijndaelEncryptionSaveKeeperDecorator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,57 +88,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/AremedHumans/Police.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/AremedHumans/Terrorist.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealers/IDamageDealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealers/Bullets/DefaultBullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealers/Bullets/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Projectiles/Bullets/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Projectiles/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/IDamageDealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoot/IShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoot/PistolShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CitizenInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Ladders/Ladder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IR/Core/Save/Decorators/SaveKeeperDecorator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs/BuildingCInfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Building.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs/BuildingConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Wall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirecyionStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/HumanStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionInputStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/public interface IStateSwicher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IStateSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/IDirectionInputStateSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionDirectionInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/DirectionInputStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenPeacInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/CitizenPeaceInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Configs/ArmedHumanConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Configs/HumanConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/DirectionStateMachines/CitizenDirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Police.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/Realization/Peace/CitizenDirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/DirectionInputStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/IDirectionInputStateSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Terrorist.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Сitizen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInput/CitizenPeaceInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/IDirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/CitizenPeaceInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/IShootInput.cs" />
       </list>
     </option>
   </component>
@@ -170,6 +187,7 @@
       <workItem from="1629890018989" duration="2810000" />
       <workItem from="1629892962863" duration="377000" />
       <workItem from="1629894161035" duration="1285000" />
+      <workItem from="1629898298603" duration="2821000" />
     </task>
     <servers />
   </component>

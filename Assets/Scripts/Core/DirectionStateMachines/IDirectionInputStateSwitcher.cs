@@ -1,6 +1,7 @@
 ﻿using Core.InputProviders;
+using Core.InputProviders.IDirectionInputs;
 
-namespace Core.Humans.DirectionStateMachines
+namespace Core.DirectionStateMachines
 {
     public interface IDirectionInputStateSwitcher
     {

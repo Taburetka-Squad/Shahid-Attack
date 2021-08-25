@@ -86,6 +86,15 @@
                 <e p="Projectile.cs" t="Include" />
               </e>
             </e>
+            <e p="DirectionStateMachines" t="Include">
+              <e p="DirectionInputStateMachine.cs" t="Include" />
+              <e p="IDirectionInputStateSwitcher.cs" t="Include" />
+              <e p="Realization" t="Include">
+                <e p="Peace" t="Include">
+                  <e p="CitizenDirectionInput.cs" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Humans" t="Include">
               <e p="ArmedHumans" t="Include">
                 <e p="ArmedHuman.cs" t="Include" />
@@ -98,18 +107,17 @@
               <e p="Configs" t="Include">
                 <e p="HumanConfig.cs" t="Include" />
               </e>
-              <e p="DirectionStateMachines" t="Include">
-                <e p="CitizenDirectionInput.cs" t="Include" />
-                <e p="DirectionInputStateMachine.cs" t="Include" />
-                <e p="IDirectionInputStateSwitcher.cs" t="Include" />
-              </e>
               <e p="Human.cs" t="Include" />
               <e p="Сitizen.cs" t="Include" />
             </e>
             <e p="InputProviders" t="Include">
-              <e p="CitizenInput.cs" t="Include" />
-              <e p="IDirectionInput.cs" t="Include" />
-              <e p="IShootInput.cs" t="Include" />
+              <e p="IDirectionInputs" t="Include">
+                <e p="CitizenPeaceInput.cs" t="Include" />
+                <e p="IDirectionInput.cs" t="Include" />
+              </e>
+              <e p="IShootInput" t="Include">
+                <e p="IShootInput.cs" t="Include" />
+              </e>
               <e p="KeyBoardInput.cs" t="Include" />
             </e>
             <e p="Weapons" t="Include">

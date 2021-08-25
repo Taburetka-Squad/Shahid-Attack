@@ -1,4 +1,5 @@
-﻿using Core.Humans.Configs;
+﻿using Core.DirectionStateMachines;
+using Core.Humans.Configs;
 using UnityEngine;
 
 namespace Core.Humans
@@ -6,20 +7,26 @@ namespace Core.Humans
     [RequireComponent(typeof(BoxCollider2D), typeof(Rigidbody2D))]
     public abstract class Human : MonoBehaviour
     {
-        protected int KillPoints;
-        protected DirectionInputStateMachine DirectionInputStateMachine;
+        public int KillPoints { get; private set; }
+
+        private DirectionInputStateMachine _directionInputStateMachine;
 
         public void Initialize(HumanConfig config)
         {
             KillPoints = config.KillPoints;
-            DirectionInputStateMachine = InitializeStateMachine();
+            _directionInputStateMachine = GetStateMachine();
         }
 
-        protected abstract DirectionInputStateMachine InitializeStateMachine();
+        protected abstract DirectionInputStateMachine GetStateMachine();
+
+        protected void ReadInput()
+        {
+            _directionInputStateMachine.CurrentDirectionInput.Read();
+        }
 
         protected void Move()
         {
-            transform.Translate(DirectionInputStateMachine.CurrentDirectionInput.Direction);
+            transform.Translate(_directionInputStateMachine.CurrentDirectionInput.Direction);
         }
     }
 }

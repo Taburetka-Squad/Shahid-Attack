@@ -2,7 +2,7 @@
 
 namespace Core.Humans.Configs
 {
-    [CreateAssetMenu(menuName = "EntityConfig", order = 0)]
+    [CreateAssetMenu(menuName = "HumanConfigs/HumanConfig", order = 0)]
     public class HumanConfig : ScriptableObject
     {
         public int KillPoints;

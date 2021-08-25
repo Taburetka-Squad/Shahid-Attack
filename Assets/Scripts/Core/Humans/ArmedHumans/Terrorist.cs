@@ -1,5 +1,5 @@
-using System.Collections.Generic;
-using Core.InputProviders;
+using Core.DirectionStateMachines;
+using Core.DirectionStateMachines.Realization.Peace;
 
 namespace Core.Humans.ArmedHumans
 {
@@ -7,8 +7,7 @@ namespace Core.Humans.ArmedHumans
     {
         private void Update()
         {
-            DirectionInputStateMachine.CurrentDirectionInput.Read();
-            ShootInput.Read();
+            ReadInput();
         }
 
         private void FixedUpdate()
@@ -16,7 +15,7 @@ namespace Core.Humans.ArmedHumans
             Move();
         }
 
-        protected override DirectionInputStateMachine InitializeStateMachine()
+        protected override DirectionInputStateMachine GetStateMachine()
         {
             return new CitizenDirectionInput();
         }

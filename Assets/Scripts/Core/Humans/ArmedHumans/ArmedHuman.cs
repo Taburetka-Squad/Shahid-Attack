@@ -1,5 +1,6 @@
 ﻿using Core.Humans.ArmedHumans.Configs;
 using Core.InputProviders;
+using Core.InputProviders.IShootInput;
 using Core.Weapons;
 using UnityEngine;
 
@@ -8,15 +9,25 @@ namespace Core.Humans.ArmedHumans
     public abstract class ArmedHuman : Human
     {
         [SerializeField] protected Transform FirePoint;
+        
         protected IShootInput ShootInput;
+        
         private Weapon _weapon;
 
-        public void InitializeInternal(ArmedHumanConfig config)
+        public void Initialize(ArmedHumanConfig config)
         {
-            Initialize(config);
+            base.Initialize(config);
+
             ShootInput = config.ShootInput;
             ShootInput.NeedAnAttack += OnNeedAnAttack;
+
             _weapon = new Weapon(config.WeaponConfig, FirePoint, gameObject.transform);
+        }
+
+        protected void ReadInput()
+        {
+            base.ReadInput();
+            ShootInput.Read();
         }
 
         private void OnNeedAnAttack()

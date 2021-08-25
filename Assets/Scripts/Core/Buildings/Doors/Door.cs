@@ -10,9 +10,9 @@ namespace Core.Buildings.Doors
         public event Action<bool> Touched;
 
         [SerializeField] private Transform _pivot;
+        
         private bool _isOpened;
-
-        [ContextMenu("Open")]
+        
         public void Open()
         {
             if (_isOpened) return;
@@ -20,8 +20,7 @@ namespace Core.Buildings.Doors
             _isOpened = true;
             Touched?.Invoke(_isOpened);
         }
-
-        [ContextMenu("Close")]
+        
         public void Close()
         {
             if (!_isOpened) return;
