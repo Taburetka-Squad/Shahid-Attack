@@ -1,11 +1,19 @@
-﻿namespace Core.Humans.ArmedHumans
+﻿using System.Collections.Generic;
+using Core.InputProviders;
+
+namespace Core.Humans.ArmedHumans
 {
     public class Police : ArmedHuman
     {
         private void Update()
         {
-            DirectionInput.Read();
+            DirectionInputStateMachine.CurrentDirectionInput.Read();
             ShootInput.Read();
+        }
+        
+        protected override DirectionInputStateMachine InitializeStateMachine()
+        {
+            return new CitizenDirectionInput();
         }
     }
 }

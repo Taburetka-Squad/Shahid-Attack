@@ -1,5 +1,4 @@
 ﻿using Core.Humans.Configs;
-using Core.InputProviders;
 using UnityEngine;
 
 namespace Core.Humans
@@ -8,17 +7,19 @@ namespace Core.Humans
     public abstract class Human : MonoBehaviour
     {
         protected int KillPoints;
-        protected IDirectionInput DirectionInput;
+        protected DirectionInputStateMachine DirectionInputStateMachine;
 
         public void Initialize(HumanConfig config)
         {
             KillPoints = config.KillPoints;
-            DirectionInput = config.DirectionInput;
+            DirectionInputStateMachine = InitializeStateMachine();
         }
+
+        protected abstract DirectionInputStateMachine InitializeStateMachine();
 
         protected void Move()
         {
-            transform.Translate(DirectionInput.Direction);
+            transform.Translate(DirectionInputStateMachine.CurrentDirectionInput.Direction);
         }
     }
 }

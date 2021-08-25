@@ -8,15 +8,15 @@ namespace Core.Humans.ArmedHumans
     public abstract class ArmedHuman : Human
     {
         [SerializeField] protected Transform FirePoint;
-        protected Weapon Weapon;
         protected IShootInput ShootInput;
+        private Weapon _weapon;
 
-        public void Initialize(ArmedHumanConfig config)
+        public void InitializeInternal(ArmedHumanConfig config)
         {
-            KillPoints = config.KillPoints;
+            Initialize(config);
             ShootInput = config.ShootInput;
             ShootInput.NeedAnAttack += OnNeedAnAttack;
-            Weapon = new Weapon(config.WeaponConfig, FirePoint, gameObject.transform);
+            _weapon = new Weapon(config.WeaponConfig, FirePoint, gameObject.transform);
         }
 
         private void OnNeedAnAttack()
@@ -26,7 +26,7 @@ namespace Core.Humans.ArmedHumans
 
         private void Shoot()
         {
-            Weapon.Shoot();
+            _weapon.Shoot();
         }
     }
 }

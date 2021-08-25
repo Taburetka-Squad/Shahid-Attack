@@ -1,5 +1,4 @@
-﻿using Core.InputProviders;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Core.Humans.Configs
 {
@@ -7,6 +6,5 @@ namespace Core.Humans.Configs
     public class HumanConfig : ScriptableObject
     {
         public int KillPoints;
-        public IDirectionInput DirectionInput;
     }
 }
