@@ -11,5 +11,10 @@ namespace Core.Buildings
         {
             _wall = gameObject.GetComponent<EdgeCollider2D>();
         }
+
+        public void Disable()
+        {
+            Destroy(this);
+        }
     }
 }
