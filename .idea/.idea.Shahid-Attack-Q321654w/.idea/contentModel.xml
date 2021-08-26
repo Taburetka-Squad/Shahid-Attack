@@ -70,6 +70,8 @@
               <e p="Floors" t="Include">
                 <e p="Cells" t="Include">
                   <e p="Cell.cs" t="Include" />
+                  <e p="CellWithWalls.cs" t="Include" />
+                  <e p="EmptyCell.cs" t="Include" />
                 </e>
                 <e p="Floor.cs" t="Include" />
                 <e p="Ladders" t="Include">
