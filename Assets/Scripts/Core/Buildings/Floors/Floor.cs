@@ -1,8 +1,8 @@
 ﻿using Core.Buildings.Doors;
-using Core.Buildings.Ladders;
 using UnityEngine;
 using System.Collections.Generic;
 using Core.Buildings.Floors.Cells;
+using Core.Buildings.Floors.Ladders;
 
 namespace Core.Buildings.Floors
 {
@@ -17,6 +17,7 @@ namespace Core.Buildings.Floors
 
         private Cell[,] _tileMap;
         private const float offset = 0.5f;
+        
         public Floor(Wall wallPrefab)
         {
             _wallPrefab = wallPrefab;
