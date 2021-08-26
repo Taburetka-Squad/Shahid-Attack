@@ -1,6 +1,8 @@
 ﻿using System;
+using Core.DamageDealer;
 using Core.DirectionStateMachines;
 using Core.Humans.Factories.Configs;
+using Core.InputProviders.IDirectionInputs.DirectionStateMachines;
 using UnityEngine;
 
 namespace Core.Humans
@@ -12,12 +14,14 @@ namespace Core.Humans
 
         protected Action ReadInput;
 
+        private float _movementSpeed;
         private DirectionInputStateMachine _directionInputStateMachine;
 
-        public void Initialize(HumanConfigBase configBase)
+        public void Initialize(HumanConfigBase config)
         {
+            _movementSpeed = config.MovementSpeed;
             ReadInput += ReadDirectionInput;
-            KillPoints = configBase.KillPoints;
+            KillPoints = config.KillPoints;
             _directionInputStateMachine = GetStateMachine();
         }
 
@@ -25,12 +29,28 @@ namespace Core.Humans
         
         protected void Move()
         {
-            transform.Translate(_directionInputStateMachine.CurrentDirectionInput.Direction);
+            var direction = _directionInputStateMachine.CurrentDirectionInput.Direction;
+            var translation = direction * _movementSpeed * Time.fixedDeltaTime;
+            transform.Translate(translation);
         }
         
         private void ReadDirectionInput()
         {
             _directionInputStateMachine.CurrentDirectionInput.Read();
         }
+
+        private void OnCollisionEnter(Collision other)
+        {
+            foreach (var component in other.gameObject.GetComponents<MonoBehaviour>())
+            {
+                if (component is IDamageDealer)
+                {
+                    Die();
+                }
+            }
+        }
+
+        protected abstract void Die();
+
     }
 }

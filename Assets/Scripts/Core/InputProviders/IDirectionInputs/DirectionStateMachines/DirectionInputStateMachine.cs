@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Core.InputProviders.IDirectionInputs;
+using Core.DirectionStateMachines;
 
-namespace Core.DirectionStateMachines
+namespace Core.InputProviders.IDirectionInputs.DirectionStateMachines
 {
     public abstract class DirectionInputStateMachine : IDirectionInputStateSwitcher
     {

@@ -1,5 +1,4 @@
-﻿using Core.InputProviders;
-using Core.InputProviders.IDirectionInputs;
+﻿using Core.InputProviders.IDirectionInputs;
 
 namespace Core.DirectionStateMachines
 {

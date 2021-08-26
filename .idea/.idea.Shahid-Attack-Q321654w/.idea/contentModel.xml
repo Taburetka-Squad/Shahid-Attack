@@ -58,6 +58,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
+            <e p="ArcCollider2D.cs" t="Include" />
             <e p="Buildings" t="Include">
               <e p="Building.cs" t="Include" />
               <e p="Configs" t="Include">
@@ -86,14 +87,12 @@
                 <e p="Projectile.cs" t="Include" />
               </e>
             </e>
-            <e p="DirectionStateMachines" t="Include">
-              <e p="DirectionInputStateMachine.cs" t="Include" />
-              <e p="IDirectionInputStateSwitcher.cs" t="Include" />
-              <e p="Realization" t="Include">
-                <e p="Peace" t="Include">
-                  <e p="CitizenDirectionInput.cs" t="Include" />
-                </e>
-              </e>
+            <e p="Game" t="Include">
+              <e p="Game.cs" t="Include" />
+              <e p="GameDifficultyTimer.cs" t="Include" />
+              <e p="GameState.cs" t="Include" />
+              <e p="GameStateMachine.cs" t="Include" />
+              <e p="IGameStateSwitcher.cs" t="Include" />
             </e>
             <e p="Humans" t="Include">
               <e p="ArmedHumans" t="Include">
@@ -119,11 +118,30 @@
             </e>
             <e p="InputProviders" t="Include">
               <e p="IDirectionInputs" t="Include">
-                <e p="CitizenPeaceInput.cs" t="Include" />
+                <e p="DirectionStateMachines" t="Include">
+                  <e p="DirectionInputStateMachine.cs" t="Include" />
+                  <e p="IDirectionInputStateSwitcher.cs" t="Include" />
+                  <e p="Realization" t="Include">
+                    <e p="Peaceful" t="Include">
+                      <e p="PeaceCitizenDirectionInput.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
                 <e p="IDirectionInput.cs" t="Include" />
+                <e p="Realization" t="Include">
+                  <e p="CitizenPeaceInput.cs" t="Include" />
+                </e>
               </e>
               <e p="IShootInput" t="Include">
                 <e p="IShootInput.cs" t="Include" />
+                <e p="ShootStateMachines" t="Include">
+                  <e p="IShootStateSwitcher.cs" t="Include" />
+                  <e p="Realization" t="Include">
+                    <e p="PoliceShootInput.cs" t="Include" />
+                    <e p="TerroristShootInput.cs" t="Include" />
+                  </e>
+                  <e p="ShootInputStateMachine.cs" t="Include" />
+                </e>
               </e>
               <e p="KeyBoardInput.cs" t="Include" />
             </e>
