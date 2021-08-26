@@ -69,6 +69,7 @@
               </e>
               <e p="Floors" t="Include">
                 <e p="Cells" t="Include">
+                  <e p="AngularCell.cs" t="Include" />
                   <e p="Cell.cs" t="Include" />
                   <e p="CellWithWalls.cs" t="Include" />
                   <e p="EmptyCell.cs" t="Include" />

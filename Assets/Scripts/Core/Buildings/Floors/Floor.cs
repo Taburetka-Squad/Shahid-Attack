@@ -11,13 +11,14 @@ namespace Core.Buildings.Floors
         [SerializeField] private Wall _wallPrefab;
         [SerializeField] private int _x;
         [SerializeField] private int _y;
-        
+        [SerializeField] private int _roomCount;
+
         private Door[] _doors;
         private Ladder _ladder;
 
         private Cell[,] _tileMap;
         private const float offset = 0.5f;
-        
+
         public Floor(Wall wallPrefab)
         {
             _wallPrefab = wallPrefab;
@@ -25,80 +26,96 @@ namespace Core.Buildings.Floors
 
         private void Start()
         {
-            _tileMap = new Cell[_x, _y];
-
             Generate();
         }
 
         public void Generate()
         {
-            GetAngularCells();
+            _tileMap = new Cell[_x, _y];
 
-            GenerateMesh();
-
-            for (int i = 0; i < startPositions.Count; i++)
+            for (int x = 0; x < _tileMap.GetUpperBound(0); x++)
             {
-                Vector2 endPosition = new Vector2(Random.Range(2, _x / 2), Random.Range(2, _y / 2));
+                for (int y = 0; y < _tileMap.GetUpperBound(1); y++)
+                {
+                    _tileMap[x, y] = new CellWithWalls(_wallPrefab);
+                }
+            }
 
-                CreateRoom(startPositions[i], endPosition);
+            GenerateLoop();
+            VisualizeTileMap();
+        }
+
+        private void GenerateLoop()
+        {
+            for (int i = 0; i < _roomCount; i++)
+            {
+                var angularCellsPositions = GetAngularCellsPositions();
+
+                CreateRoom(angularCellsPositions.ToArray());
             }
         }
 
-        private List<Cell> GetAngularCells()
+        private List<Vector2> GetAngularCellsPositions()
         {
-            
-        }
-        private void CreateRoom(Vector2 startPosition, Vector2 endPosition)
-        {
-            int startX = startPosition.x > endPosition.x ? (int)endPosition.x : (int)startPosition.x;
-            int startY = startPosition.y > endPosition.y ? (int)endPosition.y : (int)startPosition.y;
-            
-            int endX = startPosition.x > endPosition.x ? (int)startPosition.x : (int)endPosition.x;
-            int endY = startPosition.y > endPosition.y ? (int)startPosition.y : (int)endPosition.y;
-
-            for (int i = startX; i < endX; i++)
+            for (int x = 0; x < _tileMap.GetUpperBound(0); x++)
             {
-                for(int j = startY; j < endY; j++)
+                for (int y = 0; y < _tileMap.GetUpperBound(1); y++)
                 {
-                    if(i == startX && j == startY)
-                    {
-                        continue;
-                    }
-                    else if(i == startX && j > startY)
-                    {
-                        _mesh[i, j, 1].Disable();
-                    }
-                    else if(i > startX && j == startY)
-                    {
-                        _mesh[i, j, 0].Disable();
-                    }
-                    else
-                    {
-                        _mesh[i, j, 0].Disable();
-                        _mesh[i, j, 1].Disable();
-                    }
                 }
             }
         }
-        private void GenerateMesh()
+
+        private void CreateRoom(Vector2[] angularCellsPositions)
         {
-            for(int i = 0; i <= _mesh.GetUpperBound(0); i++)
+            var startPosition = angularCellsPositions[Random.Range(0, angularCellsPositions.Length)];
+
+            var endPosition = RandomRoomSize(angularCellsPositions, startPosition);
+
+            int startX = startPosition.x > endPosition.x ? (int) endPosition.x : (int) startPosition.x;
+            int startY = startPosition.y > endPosition.y ? (int) endPosition.y : (int) startPosition.y;
+
+            int endX = startPosition.x > endPosition.x ? (int) startPosition.x : (int) endPosition.x;
+            int endY = startPosition.y > endPosition.y ? (int) startPosition.y : (int) endPosition.y;
+
+            for (int x = startX; x < endX; x++)
             {
-                for(int j = 0; j <= _mesh.GetUpperBound(1); j++)
+                for (int y = startY; y < endY; y++)
                 {
-                    if (i == _mesh.GetUpperBound(0) && j != _mesh.GetUpperBound(1))
+                    if (x == startX && y == startY)
                     {
-                        _mesh[i, j, 0] = Instantiate(_wallPrefab, new Vector2(i, j + offset), Quaternion.identity, transform);
+                        continue;
                     }
-                    else if(j == _mesh.GetUpperBound(1) && i != _mesh.GetUpperBound(0))
+
+                    if (x == startX && y > startY)
                     {
-                        _mesh[i, j, 0] = Instantiate(_wallPrefab, new Vector2(i + offset, j), Quaternion.Euler(0, 0, 90), transform);
+                        _tileMap[x, y] = new EmptyCell();
+                        continue;
                     }
-                    else if (i != _mesh.GetUpperBound(0) && j != _mesh.GetUpperBound(1))
+
+                    if (x > startX && y == startY)
                     {
-                        _mesh[i, j, 0] = Instantiate(_wallPrefab, new Vector2(i, j + offset), Quaternion.identity, transform);
-                        _mesh[i, j, 1] = Instantiate(_wallPrefab, new Vector2(i + offset, j), Quaternion.Euler(0, 0, 90), transform);
-                    }    
+                        _tileMap[x, y] = new EmptyCell();
+                        continue;
+                    }
+
+                    _tileMap[x, y] = new EmptyCell();
+                    _tileMap[x, y] = new EmptyCell();
+                }
+            }
+        }
+
+        private Vector2 RandomRoomSize(Vector2[] angularPointsPositions, Vector2 startPosition)
+        {
+            
+        }
+
+        private void VisualizeTileMap()
+        {
+            for (var x = 0; x <= _tileMap.GetUpperBound(0); x++)
+            {
+                for (var y = 0; y <= _tileMap.GetUpperBound(1); y++)
+                {
+                    _tileMap[x, y].InstantiateSelf(new Vector2(x, y + offset), Quaternion.identity, transform);
                 }
             }
         }
