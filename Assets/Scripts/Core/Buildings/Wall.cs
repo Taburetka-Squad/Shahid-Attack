@@ -16,5 +16,10 @@ namespace Core.Buildings
                 new Vector2(0, -0.5f)
             };
         }
+
+        public void Disable()
+        {
+            Destroy(this);
+        }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Core.Buildings.Floors.Cells
 {
-    public abstract class Cell
+    public class Cell
     {
         public Vector2Int Position;
 
