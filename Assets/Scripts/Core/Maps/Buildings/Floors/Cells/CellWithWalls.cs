@@ -2,18 +2,21 @@
 
 namespace Core.Buildings.Floors.Cells
 {
-    public abstract class Cell
+    public class CellWithWalls : Cell
     {
-        public Vector2Int Position;
-
         public Wall LeftWall;
         public Wall UpWall;
 
         private Wall _wallPrefab;
 
-        public Cell(Wall wallPrefab)
+        public CellWithWalls(Wall wallPrefab)
         {
             _wallPrefab = wallPrefab;
+        }
+        
+        public override void InstantiateSelf(Vector2 position, Quaternion rotation, Transform parent)
+        {
+            
         }
     }
 }

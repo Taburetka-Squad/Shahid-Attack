@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Core.Humans.Factories;
+using Core.Maps;
 using UnityEngine;
 
 namespace Core.Game
@@ -8,6 +10,8 @@ namespace Core.Game
         [SerializeField] private Queue<GameState> _gameStates;
         
         private GameStateMachine _gameStateMachine;
+        private HumansFactory _humansFactory;
+        private Map _map;
 
         private void Awake()
         {
@@ -15,4 +19,6 @@ namespace Core.Game
             _gameStateMachine.Start();
         }
     }
+
+    
 }

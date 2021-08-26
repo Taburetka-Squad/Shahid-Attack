@@ -1,14 +1,26 @@
-﻿namespace Core.Game
+﻿using System.Collections.Generic;
+using Core.Humans.Factories;
+using Sirenix.OdinInspector;
+using UnityEngine;
+
+namespace Core.Game
 {
-    public abstract class GameState
+    [CreateAssetMenu(menuName = "Game/GameState", order = 0)]
+    public class GameState : ScriptableObject
     {
-        public GameDifficultyTimer GameDifficultyTimer { get; private set; }
-        
+        [ShowInInspector] public GameDifficultyTimer GameDifficultyTimer { get; private set; }
+
+        [ShowInInspector] public Dictionary<HumanType, int> HumanCount { get; private set; }
+
         private IGameStateSwitcher _gameStateSwitcher;
 
-        public GameState(IGameStateSwitcher gameStateSwitcher)
+        public void Initialize(IGameStateSwitcher gameStateSwitcher)
         {
             _gameStateSwitcher = gameStateSwitcher;
+        }
+
+        public void EnterInState()
+        {
             GameDifficultyTimer.TimeEnded += _gameStateSwitcher.SwitchNextState;
             GameDifficultyTimer.Start();
         }

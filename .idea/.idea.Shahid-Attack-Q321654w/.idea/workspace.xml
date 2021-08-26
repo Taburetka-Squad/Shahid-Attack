@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150da394-90fa-4d2d-bd2f-09dedf08494b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Cells.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Cells/Cell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Cells/Cell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Building.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Building.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Building.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Building.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Configs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs/BuildingConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Configs/BuildingConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs/BuildingConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Configs/BuildingConfig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Doors.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Doors/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Doors/Door.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/AngularCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/AngularCell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/AngularCell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/AngularCell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/Cell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/CellWithWalls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/CellWithWalls.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/EmptyCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/EmptyCell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/EmptyCell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/EmptyCell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Floor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Floor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Ladders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Ladders/Ladder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Ladders/Ladder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Square.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Square.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Square.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Wall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Wall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Wall.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Wall.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameDifficultyTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameDifficultyTimer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IR/Interactors/ScriptableScoreInteractor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IR/Interactors/ScriptableScoreInteractor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,20 +57,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Realization/Сitizen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Floor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/IDamageDealer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/ShootStateMachines/ShootInputStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Building.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Building.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/IDirectionInputStateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/HumanConfigBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/Peaceful/PeaceCitizenDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Configs/BuildingConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Configs/BuildingConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/DirectionInputStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/ArmedHumanConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/ShootStateMachines/IShootStateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/ArcCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/Realization/CitizenPeaceInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,42 +83,44 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/ShootStateMachines/Realization/PoliceShootInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Cells/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/Save/ISaveable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/Save/ISaveKeeper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/ValueRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/HumansFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/HumanConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA6AB582-61CA-4BF8-8D22-45FA0B5E29FF/fc/d9c89116/Collider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/GameDifficultyTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Repositories/ScoreRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Interactors/ScriptableScoreInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Core/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Wall.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Wall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/AngularCell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IR/Interactors/ScoreInteractor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/HumanType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Terrorist.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/IDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/KeyBoardInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Square.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/IShootInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Doors/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Doors/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Ladders/Ladder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Ladders/Ladder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Police.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/EmptyCell.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/HumansFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/HumanType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/HumansFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Factories/Configs/ArmedHumanConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Factories/ArmedHumanType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Factories/ArmedHumansFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/DirectionStateMachines/DirectionInputStateMachine.cs" />
@@ -111,17 +157,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/DirectionInputStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/Realization/CitizenPeaceInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/Peaceful/PeaceCitizenDirectionInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameDifficultyTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/EmtyCell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/EmptyCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/CellWithWall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/CellWithWalls.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/AngularCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/CellWithWalls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Cells/EmptyCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Floors/Floor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IR/Interactors/ScriptableScoreInteractor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameDifficultyTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Cells/Cell.cs" />
       </list>
     </option>
   </component>
@@ -177,6 +227,9 @@
       <workItem from="1629966929539" duration="4136000" />
       <workItem from="1629974272949" duration="2432000" />
       <workItem from="1629976826030" duration="246000" />
+      <workItem from="1629977098663" duration="1657000" />
+      <workItem from="1629978926238" duration="859000" />
+      <workItem from="1629980570557" duration="914000" />
     </task>
     <servers />
   </component>

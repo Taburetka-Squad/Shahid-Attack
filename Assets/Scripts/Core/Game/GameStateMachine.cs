@@ -11,6 +11,10 @@ namespace Core.Game
         public GameStateMachine(Queue<GameState> gameStates)
         {
             _gameStates = gameStates;
+            foreach (var gameState in _gameStates)
+            {
+                gameState.Initialize(this);
+            }
         }
 
         public void Start()
@@ -27,6 +31,7 @@ namespace Core.Game
         {
             if (_gameStates.Count > 0)
                 CurrentGameState = _gameStates.Peek();
+            CurrentGameState.EnterInState();
         }
     }
 }
