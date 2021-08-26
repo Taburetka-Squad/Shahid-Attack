@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49279c346e2b47c7bae35c87d89f78b9, type: 3}
   m_Name: New Game State
   m_EditorClassIdentifier: 
+  _humanCountInPercent:
+  - Key: 0
+    Value: 100

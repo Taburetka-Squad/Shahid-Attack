@@ -1,4 +1,4 @@
-﻿using Core.Humans.ArmedHumans.Configs;
+﻿using Core.Humans.Factories.Configs;
 using Core.ShootStateMachines;
 using Core.Weapons;
 using UnityEngine;

@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using Core.InputProviders;
-using Core.InputProviders.IShootInput;
+using Core.ShootStateMachines;
 
-namespace Core.ShootStateMachines.Realization
+namespace Core.InputProviders.IShootInput.ShootStateMachines.Realization
 {
     public class TerroristShootInput : ShootInputStateMachine
     {
@@ -12,6 +11,8 @@ namespace Core.ShootStateMachines.Realization
             {
                 new KeyBoardInput()
             };
+            
+            SwitchState<KeyBoardInput>();
         }
     }
 }

@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ba69eb43184f78b18f0e09dcbd485a, type: 3}
   m_Name: New Game Difficulty Timer
   m_EditorClassIdentifier: 
+  _timeBeforeSwitchState: 18083

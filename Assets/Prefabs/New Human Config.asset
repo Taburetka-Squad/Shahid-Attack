@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: New Human Config
   m_EditorClassIdentifier: 
   KillPoints: 0
-  Prefab: {fileID: 0}
+  MovementSpeed: 10
+  Prefab: {fileID: 898313992291611210, guid: b7aeb2a502beabf478b190d412bfb60a, type: 3}

@@ -103,9 +103,8 @@
                   <e p="DirectionInputStateMachine.cs" t="Include" />
                   <e p="IDirectionInputStateSwitcher.cs" t="Include" />
                   <e p="Realization" t="Include">
-                    <e p="Peaceful" t="Include">
-                      <e p="PeaceCitizenDirectionInput.cs" t="Include" />
-                    </e>
+                    <e p="CitizenDirectionInput.cs" t="Include" />
+                    <e p="TerroristDirectionInput.cs" t="Include" />
                   </e>
                 </e>
                 <e p="IDirectionInput.cs" t="Include" />
@@ -166,6 +165,7 @@
               <e p="Weapon.cs" t="Include" />
             </e>
           </e>
+          <e p="HumanTypeIntPair.cs" t="Include" />
           <e p="IR" t="Include">
             <e p="Core" t="Include">
               <e p="Encryption" t="Include">

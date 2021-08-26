@@ -1,8 +1,8 @@
 ﻿using Core.Buildings.Doors;
 using UnityEngine;
 using System.Collections.Generic;
-using Core.Buildings.Floors.Cells;
 using Core.Buildings.Floors.Ladders;
+using Core.Maps.Buildings.Floors.Cells;
 
 namespace Core.Buildings.Floors
 {

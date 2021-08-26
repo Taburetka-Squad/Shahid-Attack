@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using Core.InputProviders.IDirectionInputs.Realization;
 
-namespace Core.InputProviders.IDirectionInputs.DirectionStateMachines.Realization.Peaceful
+namespace Core.InputProviders.IDirectionInputs.DirectionStateMachines.Realization
 {
-    public class PeaceCitizenDirectionInput : DirectionInputStateMachine
+    public class CitizenDirectionInput : DirectionInputStateMachine
     {
-        public PeaceCitizenDirectionInput()
+        public CitizenDirectionInput()
         {
             DirectionInputs = new List<IDirectionInput>()
             {

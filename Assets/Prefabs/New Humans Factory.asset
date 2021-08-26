@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: New Humans Factory
   m_EditorClassIdentifier: 
   _configs:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a18a246903061d741a8ee1d4e83799c2, type: 2}
+  - {fileID: 11400000, guid: cd06309b59626224ea4b9ca683aa9a7a, type: 2}

@@ -1,4 +1,6 @@
-﻿namespace Core.Buildings.Floors.Cells
+﻿using Core.Buildings;
+
+namespace Core.Maps.Buildings.Floors.Cells
 {
     public class AngularCell : CellWithWalls
     {

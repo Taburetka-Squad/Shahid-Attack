@@ -1,9 +1,9 @@
-﻿using Core.Humans.Factories.Configs;
+﻿using Core.Humans.ArmedHumans;
 using Core.InputProviders.IShootInput;
 using Core.Weapons.Config;
 using UnityEngine;
 
-namespace Core.Humans.ArmedHumans.Configs
+namespace Core.Humans.Factories.Configs
 {
     [CreateAssetMenu(menuName = "HumanBaseConfigs/ArmedHumanConfig", order = 0)]
     public class ArmedHumanConfig : HumanConfigBase

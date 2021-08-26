@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Core.Buildings;
+using UnityEngine;
 
-namespace Core.Buildings.Floors.Cells
+namespace Core.Maps.Buildings.Floors.Cells
 {
     public class CellWithWalls : Cell
     {

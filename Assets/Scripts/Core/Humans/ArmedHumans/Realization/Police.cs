@@ -1,6 +1,6 @@
 ﻿using Core.DirectionStateMachines;
 using Core.InputProviders.IDirectionInputs.DirectionStateMachines;
-using Core.InputProviders.IDirectionInputs.DirectionStateMachines.Realization.Peaceful;
+using Core.InputProviders.IDirectionInputs.DirectionStateMachines.Realization;
 using Core.ShootStateMachines;
 using Core.ShootStateMachines.Realization;
 
@@ -10,7 +10,7 @@ namespace Core.Humans.ArmedHumans.Realization
     {
         protected override DirectionInputStateMachine GetStateMachine()
         {
-            return new PeaceCitizenDirectionInput();
+            return new CitizenDirectionInput();
         }
 
         protected override void Die()
