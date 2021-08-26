@@ -2,5 +2,5 @@
 
 using IRCore;
 
-[CreateAssetMenu(menuName = "Game/Interactors/Money")]
+[CreateAssetMenu(menuName = "IR/Interactors/Money")]
 class ScriptableScoreInteractor : ScriptableValueInteractor<ScoreInteractor, ScoreRepository, int> { }

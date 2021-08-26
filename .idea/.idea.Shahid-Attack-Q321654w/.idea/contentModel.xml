@@ -59,28 +59,6 @@
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="ArcCollider2D.cs" t="Include" />
-            <e p="Buildings" t="Include">
-              <e p="Building.cs" t="Include" />
-              <e p="Configs" t="Include">
-                <e p="BuildingConfig.cs" t="Include" />
-              </e>
-              <e p="Doors" t="Include">
-                <e p="Door.cs" t="Include" />
-              </e>
-              <e p="Floors" t="Include">
-                <e p="Cells" t="Include">
-                  <e p="AngularCell.cs" t="Include" />
-                  <e p="Cell.cs" t="Include" />
-                  <e p="CellWithWalls.cs" t="Include" />
-                  <e p="EmptyCell.cs" t="Include" />
-                </e>
-                <e p="Floor.cs" t="Include" />
-                <e p="Ladders" t="Include">
-                  <e p="Ladder.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Wall.cs" t="Include" />
-            </e>
             <e p="DamageDealer" t="Include">
               <e p="IDamageDealer.cs" t="Include" />
               <e p="Projectiles" t="Include">
@@ -147,6 +125,34 @@
                 </e>
               </e>
               <e p="KeyBoardInput.cs" t="Include" />
+            </e>
+            <e p="Maps" t="Include">
+              <e p="Buildings" t="Include">
+                <e p="Building.cs" t="Include" />
+                <e p="Configs" t="Include">
+                  <e p="BuildingConfig.cs" t="Include" />
+                </e>
+                <e p="Doors" t="Include">
+                  <e p="Door.cs" t="Include" />
+                </e>
+                <e p="Floors" t="Include">
+                  <e p="Cells" t="Include">
+                    <e p="AngularCell.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="CellWithWalls.cs" t="Include" />
+                    <e p="EmptyCell.cs" t="Include" />
+                  </e>
+                  <e p="Floor.cs" t="Include" />
+                  <e p="Ladders" t="Include">
+                    <e p="Ladder.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Wall.cs" t="Include" />
+              </e>
+              <e p="Cells" t="Include">
+                <e p="Cell.cs" t="Include" />
+              </e>
+              <e p="Map.cs" t="Include" />
             </e>
             <e p="Weapons" t="Include">
               <e p="Config" t="Include">

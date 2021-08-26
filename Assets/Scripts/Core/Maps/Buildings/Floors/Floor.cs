@@ -26,7 +26,7 @@ namespace Core.Buildings.Floors
 
         private void Start()
         {
-            Generate();
+     //       Generate();
         }
 
         public void Generate()
@@ -63,6 +63,8 @@ namespace Core.Buildings.Floors
                 {
                 }
             }
+
+            return new List<Vector2>();
         }
 
         private void CreateRoom(Vector2[] angularCellsPositions)
@@ -106,7 +108,7 @@ namespace Core.Buildings.Floors
 
         private Vector2 RandomRoomSize(Vector2[] angularPointsPositions, Vector2 startPosition)
         {
-            
+            return new Vector2();
         }
 
         private void VisualizeTileMap()

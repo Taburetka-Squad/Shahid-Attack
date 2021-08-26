@@ -4,18 +4,19 @@ using UnityEngine;
 
 namespace Core.Game
 {
+    [CreateAssetMenu(menuName = "Game/GameState/GameDifficultyTimer")]
     public class GameDifficultyTimer : ScriptableObject
     {
         public event Action TimeEnded;
 
-        public int TimeBeforeSwitchState { get; private set; }
+        [SerializeField] private int _timeBeforeSwitchState;
         
         private int _timePassed;
         private bool _isStoped;
 
         public async void Start()
         {
-            while (_timePassed < TimeBeforeSwitchState && !_isStoped)
+            while (_timePassed < _timeBeforeSwitchState && !_isStoped)
             {
                 await Task.Delay(1000);
                 _timePassed++;
