@@ -1,9 +1,10 @@
 ﻿using System;
+using Core.InputProviders.IDirectionInputs;
 using UnityEngine;
 
 namespace Core.InputProviders
 {
-    public class KeyBoardInput : IShootInput, IDirectionInput
+    public class KeyBoardInput : IShootInput.IShootInput, IDirectionInput
     {
         public event Action NeedAnAttack;
 

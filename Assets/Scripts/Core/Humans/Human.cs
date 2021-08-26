@@ -1,5 +1,8 @@
-﻿using Core.Humans.Configs;
-using Core.InputProviders;
+﻿using System;
+using Core.DamageDealer;
+using Core.DirectionStateMachines;
+using Core.Humans.Factories.Configs;
+using Core.InputProviders.IDirectionInputs.DirectionStateMachines;
 using UnityEngine;
 
 namespace Core.Humans
@@ -7,18 +10,47 @@ namespace Core.Humans
     [RequireComponent(typeof(BoxCollider2D), typeof(Rigidbody2D))]
     public abstract class Human : MonoBehaviour
     {
-        protected int KillPoints;
-        protected IDirectionInput DirectionInput;
+        public int KillPoints { get; private set; }
 
-        public void Initialize(HumanConfig config)
+        protected Action ReadInput;
+
+        private float _movementSpeed;
+        private DirectionInputStateMachine _directionInputStateMachine;
+
+        public void Initialize(HumanConfigBase config)
         {
+            _movementSpeed = config.MovementSpeed;
+            ReadInput += ReadDirectionInput;
             KillPoints = config.KillPoints;
-            DirectionInput = config.DirectionInput;
+            _directionInputStateMachine = GetStateMachine();
         }
 
+        protected abstract DirectionInputStateMachine GetStateMachine();
+        
         protected void Move()
         {
-            transform.Translate(DirectionInput.Direction);
+            var direction = _directionInputStateMachine.CurrentDirectionInput.Direction;
+            var translation = direction * _movementSpeed * Time.fixedDeltaTime;
+            transform.Translate(translation);
         }
+        
+        private void ReadDirectionInput()
+        {
+            _directionInputStateMachine.CurrentDirectionInput.Read();
+        }
+
+        private void OnCollisionEnter(Collision other)
+        {
+            foreach (var component in other.gameObject.GetComponents<MonoBehaviour>())
+            {
+                if (component is IDamageDealer)
+                {
+                    Die();
+                }
+            }
+        }
+
+        protected abstract void Die();
+
     }
 }

@@ -1,5 +1,5 @@
 ﻿using Core.Humans.ArmedHumans.Configs;
-using Core.InputProviders;
+using Core.ShootStateMachines;
 using Core.Weapons;
 using UnityEngine;
 
@@ -8,15 +8,28 @@ namespace Core.Humans.ArmedHumans
     public abstract class ArmedHuman : Human
     {
         [SerializeField] protected Transform FirePoint;
-        protected Weapon Weapon;
-        protected IShootInput ShootInput;
 
-        public void Initialize(ArmedHumanConfig config)
+        private ShootInputStateMachine _shootInputStateMachine;
+
+        private Weapon _weapon;
+
+        public void Initialize(ArmedHumanConfig configBase)
         {
-            KillPoints = config.KillPoints;
-            ShootInput = config.ShootInput;
-            ShootInput.NeedAnAttack += OnNeedAnAttack;
-            Weapon = new Weapon(config.WeaponConfig, FirePoint, gameObject.transform);
+            base.Initialize(configBase);
+
+            ReadInput += ReadShootInput;
+
+            _shootInputStateMachine = GetShootInputStateMachine();
+            _shootInputStateMachine.CurrentShootInput.NeedAnAttack += OnNeedAnAttack;
+
+            _weapon = new Weapon(configBase.WeaponConfig, FirePoint, gameObject.transform);
+        }
+
+        protected abstract ShootInputStateMachine GetShootInputStateMachine();
+
+        private void ReadShootInput()
+        {
+            _shootInputStateMachine.CurrentShootInput.Read();
         }
 
         private void OnNeedAnAttack()
@@ -26,7 +39,7 @@ namespace Core.Humans.ArmedHumans
 
         private void Shoot()
         {
-            Weapon.Shoot();
+            _weapon.Shoot();
         }
     }
 }

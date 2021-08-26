@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Core.InputProviders
+namespace Core.InputProviders.IShootInput
 {
     public interface IShootInput
     {
