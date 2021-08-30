@@ -77,7 +77,7 @@ namespace Core.Game
             }
 
             var position = _map.transform.position;
-            var size = _map.Size;
+            var size = _map.Size / 2;
 
             var x = Random.Range(position.x - size.x, position.x + size.x);
             var y = Random.Range(position.x - size.y, position.x + size.y);

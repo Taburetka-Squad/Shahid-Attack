@@ -46,7 +46,7 @@ namespace Core.Humans
             _directionInputStateMachine.CurrentDirectionInput.Read();
         }
 
-        private void OnCollisionEnter(Collision other)
+        private void OnCollisionEnter2D(Collision2D other)
         {
             foreach (var component in other.gameObject.GetComponents<MonoBehaviour>())
             {

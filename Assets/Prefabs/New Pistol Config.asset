@@ -17,4 +17,4 @@ MonoBehaviour:
   MaxAmmoInMagazin: 10
   ReloadingTime: 10
   TimeBetweenShoots: 1
-  FireForce: 10
+  FireForce: 30

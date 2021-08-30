@@ -162,6 +162,8 @@
                 <e p="IShoot.cs" t="Include" />
                 <e p="PistolShoot.cs" t="Include" />
               </e>
+              <e p="Pool.cs" t="Include" />
+              <e p="PooledObject.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
             </e>
           </e>

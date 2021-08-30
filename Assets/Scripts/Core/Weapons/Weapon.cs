@@ -8,7 +8,6 @@ namespace Core.Weapons
 {
     public class Weapon
     {
-        private Projectile _projectile;
         private Transform _firePoint;
         private Transform _humanRotation;
 
@@ -30,7 +29,6 @@ namespace Core.Weapons
         public Weapon(WeaponConfig weaponConfig, Transform firePoint, Transform humanRotation)
         {
             _shoot = weaponConfig.Shoot;
-            _projectile = weaponConfig.Projectile;
             _maxAmmo = weaponConfig.MaxAmmo;
 
             _timeBetweenShoots = weaponConfig.TimeBetweenShoots;
@@ -51,7 +49,7 @@ namespace Core.Weapons
             if (_canShoot)
             {
                 _ammoInMagazine -= 1;
-                _shoot.TryShoot(_firePoint, _humanRotation, _projectile);
+                _shoot.TryShoot(_firePoint, _humanRotation);
                 CoolDown();
             }
         }
@@ -66,8 +64,11 @@ namespace Core.Weapons
         private async void TryReload()
         {
             if (_ammoInReserve < _ammoInMagazine) return;
+            
             _isReloading = true;
+            
             await Task.Delay(_reloadingTime * 1000);
+            
             _ammoInMagazine = _maxAmmoInMagazin;
             _ammoInReserve -= _maxAmmoInMagazin;
         }

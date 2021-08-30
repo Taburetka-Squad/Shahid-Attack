@@ -8,8 +8,6 @@ namespace Core.Weapons.Config
     {
         public abstract IShoot Shoot { get; }
 
-        public Projectile Projectile;
-        
         public int MaxAmmo;
         public int MaxAmmoInMagazin;
         

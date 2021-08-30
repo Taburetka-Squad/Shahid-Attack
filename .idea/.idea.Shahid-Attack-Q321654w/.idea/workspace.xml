@@ -2,45 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150da394-90fa-4d2d-bd2f-09dedf08494b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/TerroristDirectionInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/TerroristDirectionInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanTypeIntPair.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HumanTypeIntPair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Pool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Pool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/PooledObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/PooledObject.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shahid-Attack-Q321654w/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ArmedHumanConfig.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ArmedHumanConfig.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Circle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Circle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObject.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameObject.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Game Difficulty Timer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Game Difficulty Timer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Game State.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Game State.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Human Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Human Config.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Humans Factory.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Humans Factory.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New Pistol Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/New Pistol Config.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Square.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Game/IGameStateSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Police.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Police.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Terrorist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Terrorist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/ArmedHumanConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/ArmedHumanConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Realization/Сitizen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Realization/Сitizen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/Peaceful.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/Peaceful/PeaceCitizenDirectionInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/CitizenDirectionInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/Peaceful/PeaceCitizenDirectionInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/CitizenDirectionInput.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/ShootStateMachines/Realization/TerroristShootInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/ShootStateMachines/Realization/TerroristShootInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/AngularCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/AngularCell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/Cell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/EmptyCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/EmptyCell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Floor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Floor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +34,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Realization/Сitizen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///GameStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Pool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/PooledObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Floor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,7 +47,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/HumanConfigBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/CitizenDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///GameStateMachine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Configs/BuildingConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/DirectionInputStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -120,15 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ShootStateMachines/ShootInputStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ShootStateMachines/Realization/PoliceShootInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/ArmedHuman.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ShootStateMachines/Realization/PlayerShootInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ShootStateMachines/Realization/TerroristShootInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Police.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/coo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/SectorCollider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Buildings/Wall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/ArcCollider2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/HumanConfigBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameDificultyTimer.cs" />
@@ -156,7 +128,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/EmptyCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/CellWithWalls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Buildings/Floors/Cells/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Realization/Сitizen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Factories/Configs/ArmedHumanConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/CustomDictionary.cs" />
@@ -167,10 +138,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IShootInput/ShootStateMachines/Realization/TerroristShootInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/Realization/CitizenPeaceInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/ArmedHumans/Realization/Terrorist.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/InputProviders/IDirectionInputs/DirectionStateMachines/Realization/TerroristDirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Humans/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Game/GameStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/PooledObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Pool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/IShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/IShoots/PistolShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/WeaponConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Weapons/Config/PistolConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Maps/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DamageDealer/Projectiles/Bullets/Bullet.cs" />
       </list>
     </option>
   </component>
@@ -195,10 +176,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15968">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15968" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -230,6 +211,9 @@
       <workItem from="1629978926238" duration="859000" />
       <workItem from="1629980570557" duration="914000" />
       <workItem from="1629985776411" duration="11758000" />
+      <workItem from="1629998028828" duration="352000" />
+      <workItem from="1629998502180" duration="349000" />
+      <workItem from="1629998928021" duration="1296000" />
     </task>
     <servers />
   </component>
